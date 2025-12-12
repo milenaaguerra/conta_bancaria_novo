@@ -38,7 +38,7 @@ export class ContaController implements ContaRepository{
                 " foi atualizada com sucesso!", colors.reset);
         } else 
             console.log(colors.fg.red, "\n A Conta numero: " + conta.numero + 
-                " nao foi encontrada!", colors.reset);
+                "nao foi encontrada!", colors.reset);
     }
 
     deletar(numero: number): void {
